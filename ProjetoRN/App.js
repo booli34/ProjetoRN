@@ -10,8 +10,7 @@ import * as React from 'react';
 import {
   Screen,
   screensEnabled,
-  // @ts-ignore
-  shouldUseActivityState,  // eslint-disable-line
+  shouldUseActivityState,
 } from 'react-native-screens';
 
 
