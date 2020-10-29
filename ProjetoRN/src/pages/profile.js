@@ -29,11 +29,8 @@ export default function Profile({navigation}) {
                                  <Text style={styles.legenda}>2ºDS Turma B</Text>      
                             </View>       
                             </View>
-                            <View>   
-                                
-                            </View>
                         </View>
-                        </View>
+                     </View>
                     
 )};
 const styles = StyleSheet.create({
