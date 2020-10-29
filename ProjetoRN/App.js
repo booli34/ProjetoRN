@@ -1,6 +1,7 @@
 import { View, StyleSheet, Button } from 'react-native';
 import Inicial from './src/pages/Inicial';
 import Loja from './src/pages/Loja';
+import Profile from './src/pages/profile';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import { Entypo } from '@expo/vector-icons'; 
 import { NavigationContainer } from '@react-navigation/native';
@@ -31,6 +32,11 @@ export default function App() {
                 <FontAwesome5 name="shopping-cart" size={size} color={color} />
             )
         }}/>
+        <Drawer.Screen name="Perfil" component={Profile} options={{
+            drawerIcon: ({color, size}) => (
+                <FontAwesome5 name="user-alt" size={size} color={color} />
+            )}}/>
+
       </Drawer.Navigator>
     </NavigationContainer>
   ); 
